@@ -1,0 +1,33 @@
+.footer {
+  min-height: 82px;
+  background-color: #F5F5F9;
+  display: flex;
+  align-items: center;
+}
+
+.footer__content {
+  min-width: 1007px;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.footer__navigation {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 19px;
+
+  a {
+    color: #48494D;
+    margin-bottom: 20px;
+    margin-right: 65.7px;
+  }
+
+  a:nth-child(7) {
+    margin-right: 0px;
+  }
+}
